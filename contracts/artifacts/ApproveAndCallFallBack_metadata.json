@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokens",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveApproval",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_SmartGTFX.sol": "ApproveAndCallFallBack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_SmartGTFX.sol": {
+			"keccak256": "0xf89cd2390b4370ed190be454b5b03dd9a6c7b2836a46c0dd64f9b8ab987a2e61",
+			"urls": [
+				"bzz-raw://40fbebc5b0f61e8d25dafb7a52a4c47f6e1c707b2663a0fae33561011211c365",
+				"dweb:/ipfs/QmW7CbLoKHkmsW2grp89LX2duZPN98TQsJq1NP2NY4DX27"
+			]
+		}
+	},
+	"version": 1
+}
